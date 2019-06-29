@@ -1,0 +1,329 @@
+/*-------------------------------------Fonts*/
+
+/*Utilising Jura and Play Fonts for Website*/
+
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Raleway:100,200,300,400,500,600,700|Play:100,200,300,400,500,600,700');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+font-size:140px;
+    
+}
+
+
+/*-------------------------------------Navigation Bar*/
+
+/*------------------Custom Styling adding to navbar section*/
+.navbar {
+    color: #FBFFFC!important;
+    background-color: #C4E6F6;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 20px 0px;
+    border: 0;
+    border-radius: 0px;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 800;
+    color: #FBFFFC!important;
+}
+
+.navbar-nav :link,
+.navbar-nav :visited {
+    color: #FBFFFC!important;
+}
+
+.navbar-nav :hover,
+.navbar-nav :active {
+    color: #141411!important;
+}
+
+/*-------------------------------------Font Awesome Icons*/
+
+.fa {
+    color: #C70000;
+    font-size: 40px;
+}
+
+.home-button {
+    color: #FBFFFC;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.fa:hover,
+.home-button:hover {
+    color: #141411;
+}
+
+/*-------------------------------------Headings & Quotes*/
+
+.section-heading,
+.quote {
+    color: #FBFFFC;
+    padding-bottom: 20px;
+}
+
+/*-------------------------------------Cover Image*/
+
+.cover-image {
+    background-image: url("../images/pcl.jpg");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.cover-text {
+    font-weight: 800;
+    font-size: 200px;
+    /*font-family: 'Cutive Mono', monospace;*/
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2E338C;
+    opacity: 0.8;
+    letter-spacing: 2px;
+}
+
+.main-button {
+    color: #FBFFFC;
+    background-color: #C70000;
+    border-color: #141411;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-button:hover,
+.main-button:active {
+    color: #FBFFFC;
+    background-color: #141411;
+    border-color: #BBE6CA;
+    text-decoration: none;
+}
+
+/*-------------------------------------About Me Section*/
+
+.about-section {
+    background-color: #C70000;
+}
+
+.quotelink a {
+    font-family: "Play", sans-serif;
+    text-decoration: none;
+    color: #B3E0E5;
+}
+
+.about-text {
+    padding: 50px 0px;
+    font-family: "Play", sans-serif;
+    font-size: 20px;
+    color: #FBFFFC;
+}
+
+.about-text p a {
+    text-decoration: none;
+    color: #B3E0E5;
+}
+
+.quotelink a:hover,
+.quotelink a:active,
+.about-text p a:hover,
+.about-text p a:active {
+    text-decoration: none;
+    color: #FFC0CB;
+}
+
+.shane-image {
+    float: left;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    border: 10px solid #FBFFFC;
+}
+
+/*-------------------------------------Photography Section*/
+
+.photo-section {
+    background-color: #A6A088;
+}
+
+.img-responsive {
+    width: 100%;
+    border: 5px solid #FBFFFC;
+}
+
+.description {
+    color: #FBFFFC;
+}
+
+/*-------------------------------------Enquiries Button*/
+
+.enquiries {
+    color: #FBFFFC;
+    background-color: #C70000;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.enquiries:hover,
+.enquiries:active {
+    color: #FBFFFC;
+    background-color: #141411;
+    text-decoration: none;
+}
+
+/*-------------------------------------Editing Section*/
+
+.editing-section {
+    background-color: #B3E0E5;
+}
+
+.editing-image {
+    float: right;
+    width: 150px;
+    border: solid 10px #C70000;
+}
+
+.editing-text {
+    padding-top: 10px;
+    font-family: "Play", sans-serif;
+    font-size: 20px;
+    color: #141411;
+}
+
+.editing-text p a {
+    text-decoration: none;
+    color: #C70000;
+}
+
+.editing-text p a:hover,
+.editing-text p a:active {
+    text-decoration: none;
+    color: #A6A088;
+}
+
+.video {
+    margin-bottom: 20px;
+}
+
+/*-------------------------------------Contact Section*/
+
+.contact-image {
+    background-image: url("../images/bikeLight 1200.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-text {
+    text-align: center;
+    position: relative;
+    color: #C70000;
+}
+
+.form {
+    width: 200px;
+    color: #0E0C0F;
+    opacity: 0.9;
+    border: 5px solid #C70000;
+}
+
+.photograph {
+    width: 200px;
+    color: #141411;
+    border: 5px solid #C70000;
+}
+
+.form-button {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.form-button:hover,
+.form-button:active {
+    background-color: #FFFFFF;
+}
+
+.social {
+    font-weight: 800;
+    padding-top: 75px;
+}
+
+/*-------------------------------------Footer*/
+
+footer {
+    color: #FBFFFC;
+    background-color: #CEEFF2;
+}
+
+/*-------------------------------------Media Queries*/
+
+/*@media screen and (max-width: 767px) {
+    
+    .cover-image {
+        background-image: url("../images/Cover 800.jpg");
+        height: 300px;
+    }
+    
+    .shane-image,
+    .editing-image {
+        width: 150px;
+        float: none;
+        border-radius: 0;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+    
+    .about-text {
+        padding: 10px 0px;
+    }
+   
+    .contact-image {
+        background-image: url("../images/bikeLight 800.jpg");
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .cover-image {
+        background-image: url("../images/Cover 1000.jpg");
+        height: 600px;
+    }
+    
+    .contact-image {
+        background-image: url("../images/bikeLight 1000.jpg");
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .cover-image {
+        background-image: url("../images/Cover 2000.jpg");
+    }
+    
+     .contact-image {
+        background-image: url("../images/bikeLight 2000.jpg");
+    }
+    
+}*/
